@@ -1,0 +1,19 @@
+Participants are tasked with building a comprehensive Healthcare Management System
+that integrates various features to streamline patient care and hospital management using APIs.Some examples of functionalities needed to be provided are as follows:
+
+Nearby Hospital Locator
+Implement a feature that tracks and displays nearby hospitals on an interactive map.
+The system should fetch hospital data based on the user’s current location and provide details such as the hospital’s name, address, and contact information.
+API Integration: Utilize mapping and location APIs (e.g., Google Maps API) and healthcare provider databases.
+User Login and Health Data Storage
+Enable users to create accounts, log in, and securely store their health details collected from various healthcare centers. The system should allow users to update and manage their health information over time.
+API Integration: Use existing authentication APIs (e.g., OAuth, Firebase) and health data management APIs.
+Acess to Health Records
+Provide users with the ability to access their health records, including medical history, prescriptions, lab results, and other relevant data. The system should support data
+aggregation from multiple healthcare providers.
+API Integration: Integrate Electronic Health Record (EHR) and Fast Healthcare
+Interoperability Resources (FHIR) APIs to fetch and display patient records.
+Appointment Schedulling
+Implement a scheduling feature that allows users to book, reschedule, or cancel appointments with hospitals or healthcare providers. The system should display available time slots and handle user preferences.
+API Integration: Integrate with existing appointment and scheduling APIs from healthcare providers (e.g., Zocdoc API, hospital-specific APIs).
+Participants are expected to use the Postman API platform to interact with external APIs and demonstrate efficient workflows. Bonus points will be awarded for creative use of API capabilities, data security measures, and user experience enhancements.

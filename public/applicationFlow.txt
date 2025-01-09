@@ -1,0 +1,29 @@
+1. For User
+    (a) User Registration
+        (i) With Email and Password
+        (ii) With Google
+    (b) User Login
+        (i) With Email and Password
+        (ii) With Google
+    
+    (c) User Profile
+        (i) View Profile
+        (ii) Edit Profile (User Data and Health Data)
+
+    (d) Appointment Management
+        (i) View Appointments
+        (ii) Book Appointment
+    
+    (e) Prescription Management
+        (i) Add Prescription
+        (ii) View Prescriptions
+        (iii) Complete Prescription
+    
+    (f) Health Record Management
+        (i) View Health Records
+        (ii) Add Health Records
+        (iii) Delete Health Records
+    
+    (g) Logout
+    
+
