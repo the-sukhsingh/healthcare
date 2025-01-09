@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, Suspense } from "react";
 import { useAuth } from "@/context/AuthContext";
-import ThemeToggle from "@/components/ToggleTheme";
 import { useSearchParams, useRouter } from "next/navigation";
 
 const AppointmentPage = React.lazy(() => import("@/components/Appointment"));
@@ -59,14 +58,14 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="bg-white flex flex-col sm:flex-row justify-between items-center dark:bg-gray-800 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow mb-6">
+      <div className="bg-white flex flex-col sm:flex-row justify-between items-centerrounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow mb-6">
         <div
           onClick={() => router.push("/")}
           className="bg-green-500 text-white px-3 py-1 font-semibold sm:px-4 sm:py-2 rounded-md hover:bg-green-600 transition-colors cursor-pointer"
         >
           Go To Home
         </div>
-        <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white mb-4 sm:mb-0">
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-800  mb-4 sm:mb-0">
           Welcome, {userData?.name}
         </h1>
 
@@ -78,7 +77,7 @@ const Dashboard = () => {
           </button>
       </div>
       <div className="flex flex-col md:flex-row w-full min-h-screen items-start gap-4 sm:gap-6">
-        <div className="flex md:flex-col w-full md:w-48 gap-2 sm:gap-4 h-full justify-start bg-gray-100 dark:bg-gray-700 p-3 sm:p-4 rounded-lg shadow-md overflow-x-auto md:overflow-x-visible">
+        <div className="flex md:flex-col w-full md:w-48 gap-2 sm:gap-4 h-full justify-start bg-gray-100 p-3 sm:p-4 rounded-lg shadow-md overflow-x-auto md:overflow-x-visible">
           {buttons.map((button, index) => (
             <button
               key={index}

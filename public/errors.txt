@@ -1,215 +1,215 @@
-[22:11:04.427] Running build in Washington, D.C., USA (East) – iad1
-[22:11:04.537] Cloning github.com/the-sukhsingh/healthcare (Branch: master, Commit: a2a4ce9)
-[22:11:04.918] Previous build cache not available
-[22:11:04.963] Cloning completed: 426.236ms
-[22:11:05.275] Running "vercel build"
-[22:11:05.748] Vercel CLI 39.2.5
-[22:11:06.073] Running "install" command: `npm install --force`...
-[22:11:06.343] npm warn using --force Recommended protections disabled.
-[22:11:30.369] 
-[22:11:30.369] added 262 packages, and audited 263 packages in 24s
-[22:11:30.370] 
-[22:11:30.370] 29 packages are looking for funding
-[22:11:30.370]   run `npm fund` for details
-[22:11:30.371] 
-[22:11:30.372] found 0 vulnerabilities
-[22:11:30.400] Detected Next.js version: 15.1.3
-[22:11:30.408] Running "npm run build"
-[22:11:30.544] 
-[22:11:30.545] > healthcare@0.1.0 build
-[22:11:30.545] > next build
-[22:11:30.545] 
-[22:11:31.272] Attention: Next.js now collects completely anonymous telemetry regarding usage.
-[22:11:31.272] This information is used to shape Next.js' roadmap and prioritize features.
-[22:11:31.272] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-[22:11:31.272] https://nextjs.org/telemetry
-[22:11:31.272] 
-[22:11:31.335]    ▲ Next.js 15.1.3
-[22:11:31.335] 
-[22:11:31.409]    Creating an optimized production build ...
-[22:11:54.851] Failed to compile.
-[22:11:54.851] 
-[22:11:54.852] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
-[22:11:54.852] Error: Cannot find module 'tailwindcss'
-[22:11:54.853] Require stack:
-[22:11:54.853] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.853] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.856] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.856] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.857] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.857] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.857]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.857]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.860]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.860]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.860]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.861]     at Array.map (<anonymous>)
-[22:11:54.861]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.861]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.861]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.861]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.862] 
-[22:11:54.862] Import trace for requested module:
-[22:11:54.864] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
-[22:11:54.864] ./src/app/globals.css
-[22:11:54.864] 
-[22:11:54.864] ./src/components/Prescription.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Prescription.css
-[22:11:54.865] Error: Cannot find module 'tailwindcss'
-[22:11:54.865] Require stack:
-[22:11:54.865] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.865] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.865] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.865] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.866] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.866] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.866]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.866]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.866]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.866]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.866]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.867]     at Array.map (<anonymous>)
-[22:11:54.867]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.867]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.867]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.867]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.867] 
-[22:11:54.867] Import trace for requested module:
-[22:11:54.868] ./src/components/Prescription.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Prescription.css
-[22:11:54.868] ./src/components/Prescription.css
-[22:11:54.868] ./src/components/Prescription.js
-[22:11:54.868] ./src/app/(app)/dashboard/page.js
-[22:11:54.868] 
-[22:11:54.868] ./src/app/globals.css
-[22:11:54.868] Error: Cannot find module 'tailwindcss'
-[22:11:54.869] Require stack:
-[22:11:54.869] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.869] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.869] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.869] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.869] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.870] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.870]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.870]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.871]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.872]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.872]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.872]     at Array.map (<anonymous>)
-[22:11:54.872]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.872]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.872]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.872]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.872]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314962)
-[22:11:54.873]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
-[22:11:54.873]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
-[22:11:54.873]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
-[22:11:54.873]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-[22:11:54.873]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-[22:11:54.873]     at Hook.eval [as callAsync] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:9218), <anonymous>:15:1)
-[22:11:54.873]     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:6372)
-[22:11:54.874]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130593
-[22:11:54.874]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
-[22:11:54.874] -- inner error --
-[22:11:54.874] Error: Cannot find module 'tailwindcss'
-[22:11:54.874] Require stack:
-[22:11:54.874] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.875] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.875] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.875] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.875] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.875] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.875]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.875]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.875]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.876]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.876]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.876]     at Array.map (<anonymous>)
-[22:11:54.876]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.876]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.876]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.876]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.877]     at Object.<anonymous> (/vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/app/globals.css:1:7)
-[22:11:54.877]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:955548
-[22:11:54.877]     at Hook.eval [as call] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:8996), <anonymous>:7:1)
-[22:11:54.877]     at Hook.CALL_DELEGATE [as _call] (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:6266)
-[22:11:54.877]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131467
-[22:11:54.877]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314916)
-[22:11:54.877]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
-[22:11:54.877]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
-[22:11:54.878]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
-[22:11:54.878]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-[22:11:54.878] 
-[22:11:54.878] Generated code for /vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/app/globals.css
-[22:11:54.878] 
-[22:11:54.878] Import trace for requested module:
-[22:11:54.878] ./src/app/globals.css
-[22:11:54.879] 
-[22:11:54.879] ./src/components/Prescription.css
-[22:11:54.879] Error: Cannot find module 'tailwindcss'
-[22:11:54.879] Require stack:
-[22:11:54.879] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.879] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.879] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.880] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.880] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.880] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.880]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.880]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.882]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.882]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.882]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.883]     at Array.map (<anonymous>)
-[22:11:54.883]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.883]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.887]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.887]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.887]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314962)
-[22:11:54.888]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
-[22:11:54.888]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
-[22:11:54.888]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
-[22:11:54.888]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-[22:11:54.888]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-[22:11:54.888]     at Hook.eval [as callAsync] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:9218), <anonymous>:15:1)
-[22:11:54.889]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130593
-[22:11:54.889]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
-[22:11:54.889]     at timesSync (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:5027)
-[22:11:54.889] -- inner error --
-[22:11:54.889] Error: Cannot find module 'tailwindcss'
-[22:11:54.889] Require stack:
-[22:11:54.889] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
-[22:11:54.890] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
-[22:11:54.890] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
-[22:11:54.890] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
-[22:11:54.890] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
-[22:11:54.890] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
-[22:11:54.890]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
-[22:11:54.891]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
-[22:11:54.891]     at Function.resolve (node:internal/modules/helpers:148:19)
-[22:11:54.891]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
-[22:11:54.891]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
-[22:11:54.892]     at Array.map (<anonymous>)
-[22:11:54.892]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
-[22:11:54.892]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
-[22:11:54.892]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
-[22:11:54.892]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
-[22:11:54.892]     at Object.<anonymous> (/vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/components/Prescription.css:1:7)
-[22:11:54.893]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:955548
-[22:11:54.893]     at Hook.eval [as call] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:8996), <anonymous>:7:1)
-[22:11:54.893]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131467
-[22:11:54.893]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314916)
-[22:11:54.893]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
-[22:11:54.893]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
-[22:11:54.894]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
-[22:11:54.894]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-[22:11:54.894]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-[22:11:54.894] 
-[22:11:54.894] Generated code for /vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/components/Prescription.css
-[22:11:54.894] 
-[22:11:54.895] Import trace for requested module:
-[22:11:54.895] ./src/components/Prescription.css
-[22:11:54.895] ./src/components/Prescription.js
-[22:11:54.895] ./src/app/(app)/dashboard/page.js
-[22:11:54.895] 
-[22:11:54.903] 
-[22:11:54.903] > Build failed because of webpack errors
-[22:11:54.907] Error: Command "npm run build" exited with 1
-[22:11:55.458] 
+[22:22:25.313] Running build in Washington, D.C., USA (East) – iad1
+[22:22:25.450] Cloning github.com/the-sukhsingh/healthcare (Branch: master, Commit: e0096f5)
+[22:22:25.854] Cloning completed: 403.132ms
+[22:22:25.889] Previous build cache not available
+[22:22:26.275] Running "vercel build"
+[22:22:26.848] Vercel CLI 39.2.5
+[22:22:27.176] Running "install" command: `npm install --force`...
+[22:22:27.473] npm warn using --force Recommended protections disabled.
+[22:22:50.804] 
+[22:22:50.805] added 262 packages, and audited 263 packages in 23s
+[22:22:50.806] 
+[22:22:50.806] 29 packages are looking for funding
+[22:22:50.806]   run `npm fund` for details
+[22:22:50.806] 
+[22:22:50.807] found 0 vulnerabilities
+[22:22:50.835] Detected Next.js version: 15.1.3
+[22:22:50.842] Running "npm run build"
+[22:22:52.293] 
+[22:22:52.293] > healthcare@0.1.0 build
+[22:22:52.293] > next build
+[22:22:52.293] 
+[22:22:52.972] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[22:22:52.973] This information is used to shape Next.js' roadmap and prioritize features.
+[22:22:52.973] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[22:22:52.973] https://nextjs.org/telemetry
+[22:22:52.973] 
+[22:22:53.035]    ▲ Next.js 15.1.3
+[22:22:53.036] 
+[22:22:53.108]    Creating an optimized production build ...
+[22:23:16.896] Failed to compile.
+[22:23:16.896] 
+[22:23:16.896] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+[22:23:16.896] Error: Cannot find module 'tailwindcss'
+[22:23:16.897] Require stack:
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.897] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.897]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.897]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.897]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.897]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.897]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.898]     at Array.map (<anonymous>)
+[22:23:16.903]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.904]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.904]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.904]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.904] 
+[22:23:16.905] Import trace for requested module:
+[22:23:16.905] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+[22:23:16.905] ./src/app/globals.css
+[22:23:16.905] 
+[22:23:16.905] ./src/components/Prescription.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Prescription.css
+[22:23:16.906] Error: Cannot find module 'tailwindcss'
+[22:23:16.906] Require stack:
+[22:23:16.906] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.906] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.906] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.906] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.907] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.907] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.907]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.907]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.907]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.907]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.907]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.908]     at Array.map (<anonymous>)
+[22:23:16.908]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.908]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.908]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.909]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.909] 
+[22:23:16.909] Import trace for requested module:
+[22:23:16.909] ./src/components/Prescription.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/components/Prescription.css
+[22:23:16.909] ./src/components/Prescription.css
+[22:23:16.909] ./src/components/Prescription.js
+[22:23:16.910] ./src/app/(app)/dashboard/page.js
+[22:23:16.910] 
+[22:23:16.910] ./src/app/globals.css
+[22:23:16.910] Error: Cannot find module 'tailwindcss'
+[22:23:16.910] Require stack:
+[22:23:16.910] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.910] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.910] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.910] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.911]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.911]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.911]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.911]     at Array.map (<anonymous>)
+[22:23:16.911]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.911]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.911]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.911]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.911]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314962)
+[22:23:16.911]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
+[22:23:16.911]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
+[22:23:16.911]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+[22:23:16.911]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
+[22:23:16.911]     at Hook.eval [as callAsync] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:9218), <anonymous>:15:1)
+[22:23:16.911]     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:6372)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130593
+[22:23:16.911]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
+[22:23:16.911] -- inner error --
+[22:23:16.911] Error: Cannot find module 'tailwindcss'
+[22:23:16.911] Require stack:
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.911] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.911]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.911]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.911]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.911]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.911]     at Array.map (<anonymous>)
+[22:23:16.912]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.912]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.912]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.912]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.912]     at Object.<anonymous> (/vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/app/globals.css:1:7)
+[22:23:16.912]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:955548
+[22:23:16.912]     at Hook.eval [as call] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:8996), <anonymous>:7:1)
+[22:23:16.912]     at Hook.CALL_DELEGATE [as _call] (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:6266)
+[22:23:16.912]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131467
+[22:23:16.912]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314916)
+[22:23:16.912]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
+[22:23:16.912]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
+[22:23:16.912]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
+[22:23:16.912]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+[22:23:16.912] 
+[22:23:16.912] Generated code for /vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/app/globals.css
+[22:23:16.912] 
+[22:23:16.912] Import trace for requested module:
+[22:23:16.912] ./src/app/globals.css
+[22:23:16.912] 
+[22:23:16.912] ./src/components/Prescription.css
+[22:23:16.912] Error: Cannot find module 'tailwindcss'
+[22:23:16.912] Require stack:
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.912] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.912]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.912]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.912]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.912]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.912]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.912]     at Array.map (<anonymous>)
+[22:23:16.912]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.912]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.912]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.912]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.912]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314962)
+[22:23:16.913]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
+[22:23:16.913]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
+[22:23:16.913]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+[22:23:16.913]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
+[22:23:16.913]     at Hook.eval [as callAsync] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:9218), <anonymous>:15:1)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130593
+[22:23:16.913]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
+[22:23:16.913]     at timesSync (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:5027)
+[22:23:16.913] -- inner error --
+[22:23:16.913] Error: Cannot find module 'tailwindcss'
+[22:23:16.913] Require stack:
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/build/webpack/config/index.js
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/build/webpack-config.js
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/build/webpack-build/impl.js
+[22:23:16.913] - /vercel/path0/node_modules/next/dist/compiled/jest-worker/processChild.js
+[22:23:16.913]     at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/server/require-hook.js:55:36
+[22:23:16.913]     at Function.resolve (node:internal/modules/helpers:148:19)
+[22:23:16.913]     at loadPlugin (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:49:32)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:56
+[22:23:16.913]     at Array.map (<anonymous>)
+[22:23:16.913]     at getPostCssPlugins (/vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:157:47)
+[22:23:16.913]     at async /vercel/path0/node_modules/next/dist/build/webpack/config/blocks/css/index.js:124:36
+[22:23:16.913]     at async /vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js:52:40
+[22:23:16.913]     at async Span.traceAsyncFn (/vercel/path0/node_modules/next/dist/trace/trace.js:153:20)
+[22:23:16.913]     at Object.<anonymous> (/vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/components/Prescription.css:1:7)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:955548
+[22:23:16.913]     at Hook.eval [as call] (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:8996), <anonymous>:7:1)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131467
+[22:23:16.913]     at tryRunOrWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:314916)
+[22:23:16.913]     at __webpack_require_module__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131434)
+[22:23:16.913]     at __nested_webpack_require_161179__ (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:130872)
+[22:23:16.913]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:131723
+[22:23:16.913]     at symbolIterator (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+[22:23:16.913]     at done (/vercel/path0/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
+[22:23:16.913] 
+[22:23:16.914] Generated code for /vercel/path0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!/vercel/path0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!/vercel/path0/src/components/Prescription.css
+[22:23:16.914] 
+[22:23:16.914] Import trace for requested module:
+[22:23:16.914] ./src/components/Prescription.css
+[22:23:16.914] ./src/components/Prescription.js
+[22:23:16.914] ./src/app/(app)/dashboard/page.js
+[22:23:16.914] 
+[22:23:16.916] 
+[22:23:16.916] > Build failed because of webpack errors
+[22:23:16.976] Error: Command "npm run build" exited with 1
+[22:23:17.849] 
